@@ -1,0 +1,21 @@
+{
+ "_note": "E93 (scored 0.057812): physics v6, 17 parameters; span = E90/E91 added. W_TRIB stored on the CORRECTED (fraction) scale: v6 ran with trib/100, so the value here is the fitted value / 100",
+ "_model": "src/physics5.py model(d, inputs()[1], theta, draws=400); missing keys take THETA0 (neutral)",
+ "SIGMA_T": 0.25593710868708686,
+ "LAM_U": 5.430445226606696e-23,
+ "LAM_T": 0.006856552039215418,
+ "LAM_LO": 3.258267135964017e-23,
+ "W_MULTI": 0.522692834592602,
+ "W_LOCAL": 0.480874982065936,
+ "W_INTER": 0.09423315747812722,
+ "W_DUAL": 0.29693077654589883,
+ "W_TRIB": 0.029999999999999992,
+ "W_BIG": 1.1611847641662902,
+ "W_FDX": 0.00121669997384333,
+ "P_BLD": 0.4000062080116887,
+ "URBAN_BG": 0.3723557407390915,
+ "P_COMM": 0.4269507884739536,
+ "M_S": 0.3974287861597722,
+ "W_ST": 1.2326503866725027,
+ "SIGMA_C": 2.1220297817143035
+}

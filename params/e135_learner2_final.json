@@ -1,0 +1,27 @@
+{
+ "base": "e134_learner",
+ "method": "misfit_gbm.bet2",
+ "chat": 0.03,
+ "mult": 0.85,
+ "W": 0.0255,
+ "bags": 5,
+ "seed": 20261031,
+ "ridge_teacher": 3e-05,
+ "params": {
+  "objective": "regression",
+  "learning_rate": 0.03,
+  "num_leaves": 15,
+  "min_data_in_leaf": 40,
+  "feature_fraction": 0.7,
+  "bagging_fraction": 0.8,
+  "bagging_freq": 1,
+  "lambda_l2": 5.0,
+  "verbose": -1,
+  "seed": 20261031,
+  "deterministic": true,
+  "force_col_wise": true,
+  "num_threads": 8
+ },
+ "rounds": 500,
+ "folds": 5
+}

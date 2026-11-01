@@ -1,0 +1,931 @@
+{
+ "n_tracts": 9794,
+ "km": {
+  "core": 102551.0,
+  "boundary_outside": 16759.0,
+  "duplicate_records": 71937.0,
+  "ramps": 12448.0
+ },
+ "tracts_with_reference": 6593,
+ "share_reference_bookkept": 0.464,
+ "regions": {
+  "eastern-ok": {
+   "label": "Oklahoma",
+   "tracts": 1192,
+   "with_reference": 923,
+   "cut_m": 21.4,
+   "boundary_only": 12,
+   "boundary_only_share": 0.013,
+   "boundary_only_ci": [
+    0.007,
+    0.021
+   ],
+   "boundary_only_homes": 17860,
+   "book_share_mean": 0.559,
+   "book_share_ci": [
+    0.546,
+    0.571
+   ],
+   "bookkept_majority": 638,
+   "km_boundary_outside": 2849.0,
+   "km_duplicate": 20095.0,
+   "km_core": 24293.0,
+   "km_ramps": 1320.0,
+   "book_share_rural": 0.484,
+   "boundary_only_share_rural": 0.005,
+   "book_share_urban": 0.62,
+   "boundary_only_share_urban": 0.02
+  },
+  "eastern-wa": {
+   "label": "Washington",
+   "tracts": 415,
+   "with_reference": 321,
+   "cut_m": 11.3,
+   "boundary_only": 4,
+   "boundary_only_share": 0.012,
+   "boundary_only_ci": [
+    0.003,
+    0.025
+   ],
+   "boundary_only_homes": 7394,
+   "book_share_mean": 0.442,
+   "book_share_ci": [
+    0.416,
+    0.469
+   ],
+   "bookkept_majority": 150,
+   "km_boundary_outside": 832.0,
+   "km_duplicate": 3741.0,
+   "km_core": 8142.0,
+   "km_ramps": 428.0,
+   "book_share_rural": 0.345,
+   "boundary_only_share_rural": 0.0,
+   "book_share_urban": 0.507,
+   "boundary_only_share_urban": 0.021
+  },
+  "maricopa-az": {
+   "label": "Arizona",
+   "tracts": 1593,
+   "with_reference": 724,
+   "cut_m": 15.8,
+   "boundary_only": 33,
+   "boundary_only_share": 0.046,
+   "boundary_only_ci": [
+    0.03,
+    0.062
+   ],
+   "boundary_only_homes": 57531,
+   "book_share_mean": 0.633,
+   "book_share_ci": [
+    0.621,
+    0.644
+   ],
+   "bookkept_majority": 692,
+   "km_boundary_outside": 2288.0,
+   "km_duplicate": 13805.0,
+   "km_core": 11422.0,
+   "km_ramps": 1605.0,
+   "book_share_rural": 0.616,
+   "boundary_only_share_rural": 0.013,
+   "book_share_urban": 0.638,
+   "boundary_only_share_urban": 0.054
+  },
+  "northern-ca": {
+   "label": "California",
+   "tracts": 591,
+   "with_reference": 361,
+   "cut_m": 10.6,
+   "boundary_only": 4,
+   "boundary_only_share": 0.011,
+   "boundary_only_ci": [
+    0.003,
+    0.022
+   ],
+   "boundary_only_homes": 7947,
+   "book_share_mean": 0.486,
+   "book_share_ci": [
+    0.462,
+    0.509
+   ],
+   "bookkept_majority": 215,
+   "km_boundary_outside": 980.0,
+   "km_duplicate": 4127.0,
+   "km_core": 6984.0,
+   "km_ramps": 697.0,
+   "book_share_rural": 0.433,
+   "boundary_only_share_rural": 0.0,
+   "book_share_urban": 0.522,
+   "boundary_only_share_urban": 0.019
+  },
+  "south-central-tx": {
+   "label": "Texas",
+   "tracts": 6003,
+   "with_reference": 4264,
+   "cut_m": 19.2,
+   "boundary_only": 168,
+   "boundary_only_share": 0.039,
+   "boundary_only_ci": [
+    0.034,
+    0.045
+   ],
+   "boundary_only_homes": 293041,
+   "book_share_mean": 0.558,
+   "book_share_ci": [
+    0.551,
+    0.564
+   ],
+   "bookkept_majority": 3007,
+   "km_boundary_outside": 9810.0,
+   "km_duplicate": 30168.0,
+   "km_core": 51710.0,
+   "km_ramps": 8398.0,
+   "book_share_rural": 0.396,
+   "boundary_only_share_rural": 0.001,
+   "book_share_urban": 0.593,
+   "boundary_only_share_urban": 0.048
+  }
+ },
+ "attribution": {
+  "eastern-ok|rural": {
+   "n": 418,
+   "gap_full": 0.464,
+   "gap_without": 0.215,
+   "added_total": 0.248,
+   "added_ci": [
+    0.234,
+    0.265
+   ],
+   "added_boundary": 0.048,
+   "added_duplicates": 0.168,
+   "tracts_added_ge_0.2": 240,
+   "homes_added_ge_0.2": 370181
+  },
+  "eastern-ok|urban": {
+   "n": 505,
+   "gap_full": 0.32,
+   "gap_without": 0.094,
+   "added_total": 0.226,
+   "added_ci": [
+    0.21,
+    0.242
+   ],
+   "added_boundary": 0.049,
+   "added_duplicates": 0.162,
+   "tracts_added_ge_0.2": 261,
+   "homes_added_ge_0.2": 392281
+  },
+  "eastern-wa|rural": {
+   "n": 128,
+   "gap_full": 0.245,
+   "gap_without": 0.124,
+   "added_total": 0.121,
+   "added_ci": [
+    0.102,
+    0.141
+   ],
+   "added_boundary": 0.047,
+   "added_duplicates": 0.07,
+   "tracts_added_ge_0.2": 29,
+   "homes_added_ge_0.2": 40646
+  },
+  "eastern-wa|urban": {
+   "n": 193,
+   "gap_full": 0.168,
+   "gap_without": 0.048,
+   "added_total": 0.121,
+   "added_ci": [
+    0.101,
+    0.143
+   ],
+   "added_boundary": 0.048,
+   "added_duplicates": 0.079,
+   "tracts_added_ge_0.2": 39,
+   "homes_added_ge_0.2": 66264
+  },
+  "maricopa-az|rural": {
+   "n": 155,
+   "gap_full": 0.28,
+   "gap_without": 0.045,
+   "added_total": 0.235,
+   "added_ci": [
+    0.204,
+    0.266
+   ],
+   "added_boundary": 0.076,
+   "added_duplicates": 0.162,
+   "tracts_added_ge_0.2": 83,
+   "homes_added_ge_0.2": 139576
+  },
+  "maricopa-az|urban": {
+   "n": 569,
+   "gap_full": 0.081,
+   "gap_without": 0.009,
+   "added_total": 0.072,
+   "added_ci": [
+    0.06,
+    0.084
+   ],
+   "added_boundary": 0.034,
+   "added_duplicates": 0.046,
+   "tracts_added_ge_0.2": 71,
+   "homes_added_ge_0.2": 127437
+  },
+  "northern-ca|rural": {
+   "n": 146,
+   "gap_full": 0.29,
+   "gap_without": 0.113,
+   "added_total": 0.177,
+   "added_ci": [
+    0.153,
+    0.201
+   ],
+   "added_boundary": 0.065,
+   "added_duplicates": 0.1,
+   "tracts_added_ge_0.2": 56,
+   "homes_added_ge_0.2": 101904
+  },
+  "northern-ca|urban": {
+   "n": 215,
+   "gap_full": 0.137,
+   "gap_without": 0.039,
+   "added_total": 0.098,
+   "added_ci": [
+    0.079,
+    0.117
+   ],
+   "added_boundary": 0.036,
+   "added_duplicates": 0.066,
+   "tracts_added_ge_0.2": 37,
+   "homes_added_ge_0.2": 63002
+  },
+  "south-central-tx|rural": {
+   "n": 754,
+   "gap_full": 0.206,
+   "gap_without": 0.064,
+   "added_total": 0.142,
+   "added_ci": [
+    0.131,
+    0.153
+   ],
+   "added_boundary": 0.052,
+   "added_duplicates": 0.082,
+   "tracts_added_ge_0.2": 209,
+   "homes_added_ge_0.2": 337374
+  },
+  "south-central-tx|urban": {
+   "n": 3510,
+   "gap_full": 0.101,
+   "gap_without": 0.018,
+   "added_total": 0.084,
+   "added_ci": [
+    0.079,
+    0.088
+   ],
+   "added_boundary": 0.037,
+   "added_duplicates": 0.055,
+   "tracts_added_ge_0.2": 523,
+   "homes_added_ge_0.2": 865357
+  }
+ },
+ "top_decile": {
+  "n": 660,
+  "leave_without_bookkeeping": 321,
+  "homes_in_leavers": 507345,
+  "people_in_leavers": 1192893
+ },
+ "added_ge_0.2_total": {
+  "tracts": 1548,
+  "homes": 2504022,
+  "people": 5814071
+ },
+ "road_gap_mean": {
+  "as_scored": 0.166,
+  "counted_once": 0.047,
+  "share_from_bookkeeping": 0.715
+ },
+ "edge_cases": {
+  "zero_population": 27,
+  "zero_housing_units": 82,
+  "zero_land_area": 2,
+  "no_overture_buildings": 2,
+  "no_overture_places": 2,
+  "no_overture_roads": 2,
+  "no_overture_data_at_all": 2,
+  "road_component_undefined": 3201,
+  "eastern_wa_tracts": 415
+ },
+ "boundary_only_total": 221,
+ "boundary_only_homes_total": 383773,
+ "bookkept_majority_total": 4702,
+ "bookkept_majority_homes": 8438076,
+ "tribal": {
+  "tracts_with_reference": 46,
+  "book_share_mean": 0.467,
+  "boundary_only": 0
+ },
+ "tests": {
+  "e19_road_boundary.csv": {
+   "what": "boundary highways counted inside (first test)",
+   "public_rmse": 0.077433604
+  },
+  "e34_ring27.csv": {
+   "what": "boundary displacement width",
+   "public_rmse": 0.066370768
+  },
+  "e36_ramp.csv": {
+   "what": "ramps removed from the numerator",
+   "public_rmse": 0.064637933
+  },
+  "e85_multi.csv": {
+   "what": "one record per route number",
+   "public_rmse": 0.059808623
+  },
+  "e86_local.csv": {
+   "what": "one record per local street name",
+   "public_rmse": 0.059752171
+  },
+  "e97_named.csv": {
+   "what": "one record per highway name",
+   "public_rmse": 0.057602037
+  },
+  "e109_ramp_in.csv": {
+   "what": "ramps restored (the scorer filters on class)",
+   "public_rmse": 0.057352075
+  },
+  "e110_ringspec.csv": {
+   "what": "displacement width re-identified",
+   "public_rmse": 0.057168596
+  },
+  "e120_vehicle.csv": {
+   "what": "regional displacement cut, railway boundaries out",
+   "public_rmse": 0.055653812
+  }
+ },
+ "displaced": {
+  "hidden": {
+   "tracts": 321,
+   "people": 1004963,
+   "rural": 0.707,
+   "tribal": 0.579,
+   "whp_above_median": 0.826,
+   "burned_since_1984": 0.502,
+   "bookkeeping_share_median": 0.293,
+   "regions": {
+    "eastern-ok": 193,
+    "south-central-tx": 52,
+    "eastern-wa": 47,
+    "northern-ca": 29
+   }
+  },
+  "false_flags": {
+   "tracts": 321,
+   "people": 1192893,
+   "rural": 0.377,
+   "tribal": 0.259,
+   "whp_above_median": 0.611,
+   "burned_since_1984": 0.106,
+   "bookkeeping_share_median": 0.755,
+   "regions": {
+    "south-central-tx": 150,
+    "eastern-ok": 101,
+    "maricopa-az": 44,
+    "northern-ca": 14,
+    "eastern-wa": 12
+   }
+  },
+  "all_road_scored": {
+   "tracts": 6593,
+   "people": 27126969,
+   "rural": 0.243,
+   "tribal": 0.113,
+   "whp_above_median": 0.545,
+   "burned_since_1984": 0.132,
+   "bookkeeping_share_median": 0.572,
+   "regions": {
+    "south-central-tx": 4264,
+    "eastern-ok": 923,
+    "maricopa-az": 724,
+    "northern-ca": 361,
+    "eastern-wa": 321
+   }
+  },
+  "named": [
+   {
+    "GEOID": "40085094300",
+    "rank_as_scored": 665,
+    "rank_counted_once": 30,
+    "people": 2023
+   },
+   {
+    "GEOID": "40021977600",
+    "rank_as_scored": 689,
+    "rank_counted_once": 40,
+    "people": 5307
+   },
+   {
+    "GEOID": "40029388200",
+    "rank_as_scored": 1063,
+    "rank_counted_once": 48,
+    "people": 1702
+   },
+   {
+    "GEOID": "48007950101",
+    "rank_as_scored": 949,
+    "rank_counted_once": 49,
+    "people": 1300
+   },
+   {
+    "GEOID": "06103000100",
+    "rank_as_scored": 1139,
+    "rank_counted_once": 50,
+    "people": 4670
+   },
+   {
+    "GEOID": "40069660198",
+    "rank_as_scored": 1200,
+    "rank_counted_once": 51,
+    "people": 2906
+   }
+  ]
+ },
+ "scorecard": {
+  "rural_vs_urban": {
+   "as_scored": 2.337,
+   "counted_once": 2.733
+  },
+  "tribal_vs_nontribal": {
+   "as_scored": 2.769,
+   "counted_once": 2.586
+  },
+  "high_svi": {
+   "as_scored": 1.16,
+   "counted_once": 1.006
+  },
+  "high_cvi": {
+   "as_scored": 1.396,
+   "counted_once": 1.272
+  },
+  "wildfire_hazard": {
+   "as_scored": 1.669,
+   "counted_once": 1.814
+  },
+  "summer_heat": {
+   "as_scored": 0.587,
+   "counted_once": 0.644
+  },
+  "winter_drought": {
+   "as_scored": 1.297,
+   "counted_once": 1.325
+  },
+  "summer_drought": {
+   "as_scored": 0.991,
+   "counted_once": 1.054
+  },
+  "road_rural_vs_urban": {
+   "as_scored": 1.673,
+   "counted_once": 3.317
+  },
+  "road_tribal_vs_nontribal": {
+   "as_scored": 2.984,
+   "counted_once": 5.228
+  },
+  "final": "e136_finalB.csv"
+ },
+ "sensitivity": {
+  "fitted": {
+   "boundary_weight": 0.924,
+   "duplicate_scale": 1.0,
+   "as_scored": 0.1657,
+   "counted_once": 0.0472,
+   "share_from_bookkeeping": 0.715
+  },
+  "face_value": {
+   "boundary_weight": 1.0,
+   "duplicate_scale": 1.806,
+   "as_scored": 0.2308,
+   "counted_once": 0.0472,
+   "share_from_bookkeeping": 0.796
+  },
+  "half": {
+   "boundary_weight": 0.462,
+   "duplicate_scale": 0.5,
+   "as_scored": 0.1048,
+   "counted_once": 0.0472,
+   "share_from_bookkeeping": 0.55
+  },
+  "boundary_only": {
+   "boundary_weight": 0.924,
+   "duplicate_scale": 0.0,
+   "as_scored": 0.0878,
+   "counted_once": 0.0472,
+   "share_from_bookkeeping": 0.463
+  },
+  "duplicates_only": {
+   "boundary_weight": 0.0,
+   "duplicate_scale": 1.0,
+   "as_scored": 0.1235,
+   "counted_once": 0.0472,
+   "share_from_bookkeeping": 0.618
+  }
+ },
+ "external": {
+  "tracts": {
+   "hidden": 321,
+   "flagged": 321
+  },
+  "measures": {
+   "no_vehicle": {
+    "label": "Households with no vehicle",
+    "hidden": 0.040988777345970825,
+    "flagged": 0.053075370241349125,
+    "all_road_scored": 0.0549297616343329,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     -0.019021199642311786,
+     -0.00540195152859721
+    ],
+    "ratio": 0.7722749207322144,
+    "ratio_ci95": [
+     0.6672739778407782,
+     0.8926565618575518
+    ],
+    "flagged_at_hidden_region_mix": 0.05144758332068922,
+    "ratio_within_region": 0.7991980474470987,
+    "ratio_within_region_ci95": [
+     0.6857648012516647,
+     0.9306620942876161
+    ]
+   },
+   "mobile_home": {
+    "label": "Homes that are mobile homes",
+    "hidden": 0.16464396768466583,
+    "flagged": 0.0928559461510412,
+    "all_road_scored": 0.08202965047143089,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.05332083810260698,
+     0.09180593291677921
+    ],
+    "ratio": 1.7731117339201186,
+    "ratio_ci95": [
+     1.512260501643116,
+     2.1271344513694674
+    ],
+    "flagged_at_hidden_region_mix": 0.08182742137313499,
+    "ratio_within_region": 2.0125606816932686,
+    "ratio_within_region_ci95": [
+     1.6595209628515597,
+     2.4654027777654055
+    ]
+   },
+   "age_65": {
+    "label": "People aged 65 or over",
+    "hidden": 0.2009448696681315,
+    "flagged": 0.17360908012474,
+    "all_road_scored": 0.1500959797184583,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.012447686997884738,
+     0.043038995518139646
+    ],
+    "ratio": 1.157455989765918,
+    "ratio_ci95": [
+     1.0667651086063246,
+     1.2641997819874475
+    ],
+    "flagged_at_hidden_region_mix": 0.16479904432122414,
+    "ratio_within_region": 1.2208263812238602,
+    "ratio_within_region_ci95": [
+     1.1481089932964224,
+     1.2976979897121852
+    ]
+   },
+   "disability": {
+    "label": "People with a disability",
+    "hidden": 0.18765284090231305,
+    "flagged": 0.1532327066102104,
+    "all_road_scored": 0.1359630197233348,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.02504916088987316,
+     0.043720711111537566
+    ],
+    "ratio": 1.2246265503856153,
+    "ratio_ci95": [
+     1.1588937597919267,
+     1.2934453349094883
+    ],
+    "flagged_at_hidden_region_mix": 0.163012667937834,
+    "ratio_within_region": 1.1509341371994775,
+    "ratio_within_region_ci95": [
+     1.0806084084872292,
+     1.2299861298387493
+    ]
+   },
+   "no_internet": {
+    "label": "Households with no internet access",
+    "hidden": 0.11320784106042787,
+    "flagged": 0.07761223359594119,
+    "all_road_scored": 0.06815345350561888,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.02545417053710727,
+     0.045888859996836305
+    ],
+    "ratio": 1.4586339783725564,
+    "ratio_ci95": [
+     1.3086987320071417,
+     1.6335478180249132
+    ],
+    "flagged_at_hidden_region_mix": 0.07554265266828238,
+    "ratio_within_region": 1.5018550250764742,
+    "ratio_within_region_ci95": [
+     1.3264601763413473,
+     1.7111915656961991
+    ]
+   },
+   "poverty": {
+    "label": "People below the poverty line",
+    "hidden": 0.15338595637272368,
+    "flagged": 0.14935177373109093,
+    "all_road_scored": 0.1394026101801809,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     -0.010861257543186268,
+     0.018993443831137467
+    ],
+    "ratio": 1.027011280421057,
+    "ratio_ci95": [
+     0.9313825025438305,
+     1.1345888265171702
+    ],
+    "flagged_at_hidden_region_mix": 0.13356935921740737,
+    "ratio_within_region": 1.1483262117119282,
+    "ratio_within_region_ci95": [
+     1.029848803522258,
+     1.2841677387793382
+    ]
+   },
+   "wildfire_high": {
+    "label": "FEMA wildfire risk high (tracts)",
+    "hidden": 0.3364485981308411,
+    "flagged": 0.11214953271028037,
+    "all_road_scored": 0.10709951456310679,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.16199376947040495,
+     0.2897196261682243
+    ],
+    "ratio": 3.0,
+    "ratio_ci95": [
+     2.1818181818181817,
+     4.401111111111105
+    ],
+    "flagged_at_hidden_region_mix": 0.09246546550516199,
+    "ratio_within_region": 3.6501769454126003,
+    "ratio_within_region_ci95": [
+     2.250065966938375,
+     7.363610796404389
+    ]
+   },
+   "flood_high": {
+    "label": "FEMA inland flood risk high (tracts)",
+    "hidden": 0.3426791277258567,
+    "flagged": 0.1588785046728972,
+    "all_road_scored": 0.2642597087378641,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.11838006230529594,
+     0.2523364485981308
+    ],
+    "ratio": 2.156862745098039,
+    "ratio_ci95": [
+     1.6348926894701543,
+     2.9499999999999997
+    ],
+    "flagged_at_hidden_region_mix": 0.12386360398389637,
+    "ratio_within_region": 2.762591708536407,
+    "ratio_within_region_ci95": [
+     1.8341208137318952,
+     4.605050915277347
+    ]
+   },
+   "risk_high": {
+    "label": "FEMA overall risk high (tracts)",
+    "hidden": 0.4143302180685358,
+    "flagged": 0.13707165109034267,
+    "all_road_scored": 0.2087378640776699,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     0.2118380062305296,
+     0.34267912772585674
+    ],
+    "ratio": 3.022727272727273,
+    "ratio_ci95": [
+     2.2744178921568627,
+     4.2731671554252175
+    ],
+    "flagged_at_hidden_region_mix": 0.1584215110429601,
+    "ratio_within_region": 2.634544098928065,
+    "ratio_within_region_ci95": [
+     1.885294441385282,
+     4.088605556404074
+    ]
+   },
+   "resilience": {
+    "label": "FEMA community resilience score (mean)",
+    "hidden": 27.012696890750938,
+    "flagged": 30.45553504792843,
+    "all_road_scored": 30.107398815076206,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     -6.5641824450529045,
+     -0.4054189036526551
+    ],
+    "ratio": 0.8869552561871124,
+    "ratio_ci95": [
+     0.7960100625752299,
+     0.9856236501148499
+    ],
+    "flagged_at_hidden_region_mix": 38.460462771222076,
+    "ratio_within_region": 0.7023435459143896,
+    "ratio_within_region_ci95": [
+     0.6378470795240176,
+     0.7723764460470213
+    ]
+   },
+   "social_vuln": {
+    "label": "FEMA social vulnerability score (mean)",
+    "hidden": 69.27644593729906,
+    "flagged": 58.22551874810593,
+    "all_road_scored": 55.74783497099605,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     7.2012978545444,
+     14.980977380995395
+    ],
+    "ratio": 1.1897952551870157,
+    "ratio_ci95": [
+     1.1189342226886185,
+     1.2706241260707152
+    ],
+    "flagged_at_hidden_region_mix": 52.40319376017022,
+    "ratio_within_region": 1.3224422695658367,
+    "ratio_within_region_ci95": [
+     1.218316875001012,
+     1.4357775893637656
+    ]
+   },
+   "loss_per_person": {
+    "label": "FEMA expected annual loss per person ($)",
+    "hidden": 843.4025993979525,
+    "flagged": 451.0537281146346,
+    "all_road_scored": 489.41505420871584,
+    "tracts_used": {
+     "hidden": 321,
+     "flagged": 321
+    },
+    "diff_ci95": [
+     311.3714548396202,
+     477.02834305149275
+    ],
+    "ratio": 1.869849525295583,
+    "ratio_ci95": [
+     1.6624527242562375,
+     2.1014648757347385
+    ],
+    "flagged_at_hidden_region_mix": 484.22082322031264,
+    "ratio_within_region": 1.7351973020518359,
+    "ratio_within_region_ci95": [
+     1.521899228449306,
+     1.9576349559076285
+    ]
+   }
+  },
+  "counts": {
+   "households with no vehicle": {
+    "hidden": 15789,
+    "flagged": 23768
+   },
+   "mobile homes": {
+    "hidden": 77993,
+    "flagged": 47110
+   },
+   "people aged 65+": {
+    "hidden": 207140,
+    "flagged": 211326
+   },
+   "people with a disability": {
+    "hidden": 188769,
+    "flagged": 181597
+   },
+   "households with no internet": {
+    "hidden": 43608,
+    "flagged": 34756
+   },
+   "people below the poverty line": {
+    "hidden": 152833,
+    "flagged": 175957
+   },
+   "people": {
+    "hidden": 1030830,
+    "flagged": 1217252
+   }
+  },
+  "worklist": {
+   "wfir_high": {
+    "road_scored": 706,
+    "on_list_as_scored": 110,
+    "on_list_counted_once": 182
+   },
+   "ifld_high": {
+    "road_scored": 1742,
+    "on_list_as_scored": 139,
+    "on_list_counted_once": 198
+   },
+   "risk_high": {
+    "road_scored": 1376,
+    "on_list_as_scored": 130,
+    "on_list_counted_once": 219
+   }
+  },
+  "spearman_wildfire": {
+   "road_gap_as_scored": 0.32758851445701703,
+   "road_gap_counted_once": 0.4499789765108136
+  },
+  "spearman_wildfire_within_region": {
+   "road_gap_as_scored": 0.30984141993753295,
+   "road_gap_counted_once": 0.44979294713136725
+  },
+  "regions": {
+   "hidden": {
+    "eastern-ok": 193,
+    "south-central-tx": 52,
+    "eastern-wa": 47,
+    "northern-ca": 29
+   },
+   "flagged": {
+    "south-central-tx": 150,
+    "eastern-ok": 101,
+    "maricopa-az": 44,
+    "northern-ca": 14,
+    "eastern-wa": 12
+   }
+  },
+  "sources": {
+   "retrieved_utc": "2026-10-31 16:27",
+   "acs": {
+    "name": "American Community Survey 2020-2024 5-year detailed tables, table-based summary file",
+    "tables": [
+     "B25044",
+     "B25024",
+     "B01001",
+     "B18101",
+     "B28002",
+     "B17001"
+    ],
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-<table>.dat",
+    "licence": "US Census Bureau, public domain"
+   },
+   "nri": {
+    "name": "FEMA National Risk Index, census tracts",
+    "version": "December 2025",
+    "url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Census_Tracts/FeatureServer/0/query",
+    "statement": "This product uses the Federal Emergency Management Agency's National Risk Index dataset API or downloadable datasets but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s)."
+   }
+  }
+ }
+}

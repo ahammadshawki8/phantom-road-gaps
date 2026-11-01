@@ -1,0 +1,11 @@
+{
+ "geoid": "06101050503",
+ "route_highway_inside_m": 0.0,
+ "route_highway_along_edge_m": 1643.5,
+ "offset_m_p10_median_p90": [
+  0.4,
+  2.8,
+  3.8
+ ],
+ "other_highway_class_inside_m": 451.9
+}

@@ -1,0 +1,18 @@
+{
+ "_note": "E90 (scored 0.058424): physics v5 refit, 14 parameters; span = 34 scored files up to E88/E84 (includes e45_blend)",
+ "_model": "src/physics5.py model(d, inputs()[1], theta, draws=400); missing keys take THETA0 (neutral)",
+ "SIGMA_T": 0.21021553849890015,
+ "LAM_U": 5.430445226606696e-23,
+ "LAM_T": 0.034158778066685845,
+ "LAM_LO": 2.790888906595518e-23,
+ "W_MULTI": 0.7453108815927472,
+ "W_LOCAL": 0.44684068324396997,
+ "W_INTER": 0.4655469672845012,
+ "W_DUAL": 0.7789946027560881,
+ "P_BLD": 0.4122466472073235,
+ "URBAN_BG": 0.5696103538815736,
+ "P_COMM": 0.31837627048521316,
+ "M_S": 0.5141193438210234,
+ "W_ST": 2.999999999999961,
+ "SIGMA_C": 3.0
+}

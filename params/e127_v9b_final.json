@@ -1,0 +1,5 @@
+{"base": "geo2",
+ "components": {"geo2": {"kind": "pieces", "weights": "e125_geo2_weights.json"},
+                "v9b": {"kind": "bet", "on": "geo2", "vehicle": "physics9", "theta": "physics9_e127_theta.json",
+                        "draws": 400, "span_upto": "e125_geo2.csv", "W": 0.0425}},
+ "combine": {"v9b": 1.0}}

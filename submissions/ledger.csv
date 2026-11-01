@@ -1,0 +1,114 @@
+id,file,kind,const,rmse,note,date
+2s4WZ9uW,const_0.20.csv,const,0.20,0.16607025,const 0.20,2026-10-03
+QC18ef7g,const_0.50.csv,const,0.50,0.449105407,const 0.50,2026-10-03
+ra9rPDH3,submission_k030_byregion.csv,probe,,0.097577666,buildings/ACS by region K=0.3,2026-10-03
+Y7Pgrp17,probe_density_within.csv,probe,,0.085270852,within-region -log density,2026-10-03
+f4hXhkky,s1_struct_full.csv,probe,,0.097351102,E5 structural full K=0.4,2026-10-11
+1rR6Bwbo,s2_struct_noschool.csv,probe,,0.097117254,E6 no school K=0.4,2026-10-11
+U7QAMSmk,s3_struct_nocbp.csv,probe,,0.095020304,E7 no cbp K=0.4,2026-10-11
+KxP3JBSL,f2a_dens_fire.csv,probe,,0.084971957,E16 density + 0.12 fire shortfall,2026-10-11
+nWjN363r,f2b_dens_road.csv,probe,,0.083691364,E17 density + 0.12 road shortfall,2026-10-11
+WdouShxc,e18_dens_road_fire.csv,probe,,0.083157213,E18 density + road + fire,2026-10-12
+85XpiHGn,e19_road_boundary.csv,probe,,0.077433604,E19 E18 + road boundary,2026-10-12
+tq4NpE25,e20_fire_boundary.csv,probe,,0.084493807,E20 E18 + fire boundary,2026-10-12
+ur54Qi31,e21_school_boundary.csv,probe,,0.08416719,E21 E18 + school boundary,2026-10-12
+yoQ47w37,e22_e18_roadboundary_full.csv,probe,,0.07207737,E22 E18 + 0.461 boundary road,2026-10-12
+5Ro9T6zH,e23_road_ring100.csv,probe,,0.071782976,E23 E22 + 0.15 ring100 road,2026-10-12
+3yM3sY8k,e24_road_hwnum.csv,probe,,0.073939406,E24 E22 + 0.15 hw-only numerator,2026-10-12
+VYpQGsu9,e25_road_regionz.csv,probe,,0.075322045,E25 E22 + 0.15 per-region z,2026-10-12
+KUeC7zqg,e26_road_undefined.csv,probe,,0.075436021,E26 E22 + 0.15 undefined indicator,2026-10-12
+Ca7zUuyk,e27_road_combined.csv,probe,,0.070120505,E27 E22 + ring100 - regionz - undefined joint,2026-10-12
+9yJWkYYd,e28_bld_usfs.csv,probe,,0.071264056,E28 E27 + 0.15 building gap vs USFS count,2026-10-13
+EpBxQTkx,e29_road_level.csv,probe,,0.067787141,E29 E27 + 0.15 rescaled road reference,2026-10-13
+uHbn9ENe,e30_rural_step.csv,probe,,0.069078739,E30 E27 + 0.15 rural step,2026-10-13
+ZNbF8kUZ,e31_fac_county.csv,probe,,0.071040358,E31 E27 + 0.15 facility county share,2026-10-13
+pur76WfW,e33_cells.csv,probe,,0.066948091,E33 joint road-level + rural-step with published cell means,2026-10-13
+RQWjvZT4,e34_ring27.csv,probe,,0.066370768,E34 E33 + 0.10 ring27 road level,2026-10-14
+FEKDPT9J,e35_blend.csv,model,,0.064978176,E35 least-squares blend of all scored files,2026-10-14
+65AhhNsw,e36_ramp.csv,probe,,0.064637933,E36 blend + 0.13 ramp-free transport reference ring 15.5m,2026-10-14
+dWbAitZy,e37_ramp_rake.csv,probe,,0.064385248,E37 E36 plus published cell means and rank-1 rubric ratios raked at beta,2026-10-14
+v3bTjSWf,e38_tiger.csv,probe,,0.064874994,E38 TIGER-measured transport reference three parts plus quality over the blend raked,2026-10-15
+Fqe6dnxw,e41_knn.csv,probe,,0.06397532,E41 neighbourhood-scale Overture completeness six parts over the blend,2026-10-15
+PBxeZ1Em,e42_blend26.csv,probe,,0.064130328,E42 least-squares re-solve of all 26 scored submissions,2026-10-15
+tRKtJDye,e43_pack.csv,probe,,0.064243741,E43 thirteen local-completeness parts incl POI packed over the 28-file re-solve,2026-10-15
+kjuBV2aG,e44_poi.csv,probe,,0.065615262,E44 POI component alone at W 0.24 over the 28-file re-solve,2026-10-15
+HeqLB46U,e45_blend.csv,probe,,0.063713569,E45 least-squares re-solve of all 30 scored submissions,2026-10-15
+YHt8Xf8W,e46_poi2.csv,probe,,0.06377831,E46 county-allocated POI reference and the mean-of-defined facilities weighting,2026-10-16
+mYTVZPgP,e47_maskedmean.csv,probe,,0.063793979,E47 masked-mean functional form (T*dT+P+B)/(2+dT) projected on the span,2026-10-16
+mo9kxidd,e48_commercial.csv,probe,,0.06353735,E48 commercial-activity POI reference big buildings + service roads,2026-10-16
+ryPawC9G,e49_fireblk.csv,probe,,0.062615745,E49 misfiled fire stations blackout fire gap 1 projected,2026-10-16
+FASYb9Pk,e50_firepart.csv,probe,,0.063587444,E50 misfiled fire stations partial fire gap projected,2026-10-16
+6jyMbN8N,e51_ems.csv,probe,,0.062544273,E51 misfiled EMS stations EMS gap 1 projected,2026-10-17
+i8RwrNSF,e52_bldfire.csv,probe,,0.062150045,E52 fire stations traced only as Overture buildings fire gap 1 projected,2026-10-17
+gkGGY5oD,e53_nfac.csv,probe,,0.062470072,E53 E49 fire step weighted by facilities-half divisor projected,2026-10-17
+QGLm3mbT,e56_schools.csv,probe,,0.061474266,E56 misfiled schools school gap 1 over n defined projected over E54,2026-10-17
+Vcem1fRV,e57_tribal.csv,probe,,0.061804964,E57 tribal-land share AIANNH projected over E54,2026-10-17
+Tefi6u1p,e58_schpart.csv,probe,,0.06150849,E58 partial school gap clean misfiled deduped projected over stage-2 stack,2026-10-18
+QPXem8MV,e59_schclean.csv,probe,,0.061366579,E59 precision inside E56 strict vs broad school names projected over stage-2 stack,2026-10-18
+EivmfGWz,e60_firededup.csv,probe,,0.061552691,E60 partial fire gap deduplicated projected over stage-2 stack,2026-10-18
+miq1CQu7,e62_settle.csv,probe,,0.061296975,E62 missing fire stations from community counts over E59,2026-10-18
+AESr735U,e63_zipcbp.csv,probe,,0.061583311,E63 CBP as ZIP totals allocated by land area over E59,2026-10-18
+ykYch9Ge,e64_tribal_legal.csv,probe,,0.061290065,E64 legal tribal land share over E62,2026-10-19
+sCW3TZ7M,e65_settle_loc.csv,probe,,0.061364087,E65 missing fire stations from locality counts over E62,2026-10-19
+aJzaYigY,e66_web.csv,probe,,0.061171198,E66 place record completeness over E62,2026-10-19
+TxX7B5GV,e67_unrouted.csv,probe,,0.061264791,E67 TIGER S1200 holds part of unrouted arterials over E62,2026-10-19
+TmFehvcU,e68_ppp.csv,probe,,0.061390921,E68 places per person over E62,2026-10-19
+5uGTGCJ2,e72_affine.csv,probe,,0.060857986,E72 ridge affine combination of 19 scored files,2026-10-20
+3h8d36yR,e73_physics.csv,probe,,0.060979369,E73 physics model v1 projected over E66,2026-10-20
+UKTCnnvQ,e69_nostreet.csv,probe,,0.061281145,E69 places with no street address over E66,2026-10-20
+XbyuzFA7,e70_tertiary.csv,probe,,0.061121846,E70 TIGER holds part of Overture tertiary over E66,2026-10-20
+dvA5wmK4,e74_physics2.csv,probe,,0.060513545,E74 physics model v2 per-region road level projected over E72,2026-10-20
+u1VezvWB,e77_affine.csv,probe,,0.060157305,E77 ridge affine combination of 24 scored files including E74 physics v2,2026-10-21
+apTZjyth,e76_physics3.csv,probe,,0.060557506,E76 physics model v3b: CBP completeness from website/phone share over E74,2026-10-21
+QhBWjQ9j,e81_te_import.csv,probe,,0.060689236,E81 TIGER S1200 holds import-era (reclassified) tertiary over E74,2026-10-21
+rzLAaz3u,e82_lo_import.csv,probe,,0.060493261,E82 TIGER S1200 holds edited import-era local roads over E74,2026-10-21
+LbudsGUf,e78_grad_sigt.csv,probe,,0.06049395,E78 physics gradient: road-reference noise sigma_t over E74,2026-10-21
+12TVBJbD,e85_multi.csv,probe,,0.059808623,E85 TIGER keeps one record per route number: concurrent routes counted again over E77,2026-10-22
+McMWrKyb,e86_local.csv,probe,,0.059752171,E86 TIGER keeps one record per name: route plus local street counted again over E77,2026-10-22
+hqK3fHEC,e87_affine.csv,probe,,0.05915232,E87 ridge affine combination of 31 scored files including E85 E86,2026-10-22
+GwERRKnp,e88_double2.csv,probe,,0.059709212,E88 double counting second step (two extra records vs one) over E86,2026-10-22
+RcjLtaTm,e84_physics4.csv,probe,,0.060271582,E84 physics model v4 over E77,2026-10-22
+eHAePQ9U,e90_physics5.csv,probe,,0.058424474,E90 physics model v5 with mechanism settings fitted to the scored files: unseen part over E87,2026-10-23
+3gUZ3XxA,e91_divided.csv,probe,,0.059655812,E91 TIGER draws a divided highway once: physics difference over E87,2026-10-23
+HKYAATBH,e92_affine.csv,probe,,0.057762079,E92 ridge affine combination of 36 scored files including E90 E91,2026-10-23
+NuUMhQbr,e93_physics6.csv,probe,,0.057812369,E93 physics model v6 fitted to the scored files: unseen part over E92,2026-10-23
+gDLvyqKn,e95_tribal_roads.csv,probe,,0.058049015,E95 TIGER holds more road on legal tribal land: physics difference over E92,2026-10-23
+ST4uGFJ3,e96_physics8.csv,probe,,0.057738168,E96 physics v8 three new mechanisms bundled: agency-counted fire reference business recall tribal facility records,2026-10-24
+eKJkfwzH,e97_named.csv,probe,,0.057602037,E97 TIGER keeps one record per name: the honorific highway name of a numbered route counted again,2026-10-24
+XAhsBroq,e98_schoolcat.csv,probe,,0.057873875,E98 the six school categories are six components of the facilities half not one: the blackout divisor runs to 8,2026-10-24
+Y5Vrvp98,e99_joint.csv,probe,,0.05748527,E99 the joint recalibration of the three TIGER one-record-per-name rules: the interaction the one-at-a-time files cannot hold,2026-10-24
+Qazr9fjs,e100_block.csv,probe,,0.057627279,E100 the full interaction of the five fitted TIGER reference corrections applied jointly at their fitted weights,2026-10-24
+Xp5ZFyqq,e101_cbpscope.csv,probe,,0.057657273,E101 County Business Patterns does not count 14% of the places in the CBP numerator: public administration religious farms and non-establishments removed,2026-10-25
+h11gCSmc,e102_recall.csv,probe,,0.057538683,E102 per-tract road attribute recall on the route system scaled within cell beta pinned to the published 1.87,2026-10-25
+wmEzznqp,e104_burnlag.csv,probe,,0.057666688,E104 the post-fire remapping lag,2026-10-25
+sFZdHh3Z,e105_schoolbreadth.csv,probe,,0.057353743,E105 the school reference spans the region's six-category taxonomy not the tract's own listings,2026-10-25
+7CMMwJPY,e106_five.csv,probe,,0.057375224,E106 the five TIGER one-record-per-name rules applied jointly under one recalibration,2026-10-26
+DhAJFokS,e107_region.csv,probe,,0.057985828,E107 the TIGER arterial reference is the regions road pattern not the tracts own route tagging,2026-10-26
+L6Dzot46,e108_juris.csv,probe,,0.057806677,E108 the hidden fire station belongs to a jurisdiction and only one of its tracts holds it,2026-10-26
+qV6D146k,e109_ramp_in.csv,probe,,0.057352075,E109 the scorer filters Overture on class only and a motorway ramp is class motorway,2026-10-26
+eNAQ7Jgs,e110_ringspec.csv,probe,,0.057168596,E110 the displacement width re-identified on the ramp-full numerator,2026-10-26
+C8ZvvCAE,e111_bndtiger.csv,probe,,0.057090579,E111 the boundary highway from TIGER's own line replaces the 7.91 m ring,2026-10-27
+TWpCna8m,e112_toll.csv,probe,,0.057171212,E112 Texas toll highways are S1100 and enter the transport reference and the mask,2026-10-27
+rR6WmPJg,e113_sigma.csv,probe,,0.057194052,E113 sigma_t pinned on the published ratio once the width is gone,2026-10-27
+Bs3EgY5B,e114_affine14.csv,probe,,0.056414545,E114 certified re-dose of the scored chain over 14 files plus the two scorer-pinned water tracts,2026-10-27
+VZ2WdxNQ,e115_records.csv,probe,,0.05617753,E115 TIGER keeps one record per name on the spec vehicle with the boundary highways extra records,2026-10-27
+CvksQQ3t,e116_redose.csv,probe,,0.056036737,E116 certified re-dose of E115s counting-rule part to its measured optimum,2026-10-28
+YB9DxTyR,e117_interior.csv,probe,,0.056416008,E117 E115 split: interior one-record-per-name rules re-weighted against the boundary records,2026-10-28
+ckUYgThg,e118_spec_ref.csv,probe,,0.055893954,E118 the transport references two smear terms (unrouted arterials and tertiary) re-identified at 0 on the spec vehicle on the certified affine of the scored chain,2026-10-28
+MFAKRR4U,e119_desig.csv,probe,,0.055733973,E119 Arizonas ADOT route-log highway names are not TIGER records: the honorific-name rule re-identified on the spec vehicle,2026-10-28
+XH7YkkB9,e120_vehicle.csv,probe,,0.055653812,E120 the spec vehicle re-identified: railway river and right-of-way boundaries out of the TIGER boundary length urban hidden stations by area a participant's 270 as misfiled places the school multiplier on the published 8.7,2026-10-28
+78J7q3pA,e121_split.csv,probe,,0.055772653,E121 E120 split: a participant's 270 as misfiled places and the school multiplier on the published 8.7 measured the in-span area exponent of the urban hidden stations backed out by a third,2026-10-29
+JKKEUxSz,e122_rural.csv,probe,,0.055689471,E122 the rural hidden-station rate in proportion to area^0.19 the packages own listed-station exponent re-solved on the 740: which rural tracts hold a blackout not how many,2026-10-29
+mtKshFoC,e123_clean.csv,probe,,0.057022207,E123 clean rebuild: 56 package-only pieces re-solved on the scored span no excluded lineage,2026-10-29
+tnz4HJ7W,e124_geo.csv,probe,,0.056305513,E124 clean geometric fit: 63 package-only pieces weighted to reproduce E120s shape no score in the weights incl fitted physics v5-v7,2026-10-29
+t1WTVYBx,e125_geo2.csv,probe,,0.055818894,E125 clean geometric fit v2: 77 package-only pieces weighted to reproduce E120s shape no score in the weights,2026-10-29
+H3PhE2XC,e127_v9b.csv,probe,,0.055760693,E127 physics v9b: spec vehicle plus the one-record-per-agency fire rule and record richness mechanism weights fitted to the scored span its unscored part on E125,2026-10-30
+jhVzDNqR,e129_teacher.csv,probe,,0.055587617,E129 clean geometric fit: 77 package-only pieces plus E127s physics column weighted to reproduce the certified affine of 69 scored files no score in the piece weights,2026-10-30
+T1zELUkk,e130_cbphu.csv,probe,,0.055898359,E130 physics v10: the CBP establishment reference is smaller where housing per building is high a weight stable across three fits its unscored part on E127,2026-10-30
+13GyRVUt,e131_teacher2.csv,probe,,0.055574085,E131 clean geometric fit v2: 77 package-only pieces plus the physics v9b vehicle and E127s column weighted to reproduce the certified affine of 70 scored files no score in the piece weights,2026-10-30
+ns6ZYTWS,e132_robust.csv,probe,,0.055629663,E132 clean geometric fit robust twin of E131: same pieces teacher affine regularised for the private board no score in the piece weights,2026-10-30
+1WxxjK1N,e133_svi.csv,probe,,0.055667727,E133 physics v11: Overture lists fewer businesses where social vulnerability is high the CBP reference rises with SVI a weight stable across two fits its unscored part on E132,2026-10-31
+EVGrZBHt,e134_learner.csv,probe,,0.05556589,E134 misfit learner: a gradient boosted model of what the simulator misses from package features out of fold its part outside the scored span on E132,2026-10-31
+1cRENcv7,e135_learner2.csv,probe,,0.055612458,E135 misfit learner v2: bagged with the simulator's own components as features its part beyond every scored file on E134,2026-10-31
+E3u62GkV,e136_finalB.csv,probe,,0.055506023,E136 final B: E131 plus the E134 misfit-learner step at its measured optimum,2026-10-31
+AoPjBerW,e137_refit.csv,probe,,0.055517187,E137 physics refit: the simulator refitted to all 104 scored files its change outside the scored span on E136,2026-10-31

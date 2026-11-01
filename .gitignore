@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.parquet
+data/
+docs/paper/*.aux
+docs/paper/*.log
+docs/paper/*.out
+docs/paper/build.log
+
+# leaderboard scorecard screenshots: never committed
+*scorecard*.png
+*_rubric*.png
+leaderboard_rubric/

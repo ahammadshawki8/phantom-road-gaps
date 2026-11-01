@@ -1,0 +1,10 @@
+{
+ "base": "geo",
+ "components": {
+  "geo": {
+   "kind": "pieces",
+   "weights": "e131_teacher2_weights.json"
+  }
+ },
+ "combine": {}
+}

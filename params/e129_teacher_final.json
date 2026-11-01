@@ -1,0 +1,21 @@
+{
+ "base": "geo",
+ "components": {
+  "geo": {
+   "kind": "pieces",
+   "weights": "e129_teacher_weights.json"
+  },
+  "bet": {
+   "kind": "bet",
+   "on": "geo",
+   "vehicle": "physics9",
+   "theta": "physics9_e127_theta.json",
+   "draws": 400,
+   "span_upto": "e125_geo2.csv",
+   "W": 0.020579033340848294
+  }
+ },
+ "combine": {
+  "bet": 1.0
+ }
+}

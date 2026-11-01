@@ -1,0 +1,22 @@
+{
+ "retrieved_utc": "2026-10-31 16:27",
+ "acs": {
+  "name": "American Community Survey 2020-2024 5-year detailed tables, table-based summary file",
+  "tables": [
+   "B25044",
+   "B25024",
+   "B01001",
+   "B18101",
+   "B28002",
+   "B17001"
+  ],
+  "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-<table>.dat",
+  "licence": "US Census Bureau, public domain"
+ },
+ "nri": {
+  "name": "FEMA National Risk Index, census tracts",
+  "version": "December 2025",
+  "url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Census_Tracts/FeatureServer/0/query",
+  "statement": "This product uses the Federal Emergency Management Agency's National Risk Index dataset API or downloadable datasets but is not endorsed by FEMA. The Federal Government or FEMA cannot vouch for the data or analyses derived from these data after the data have been retrieved from the Agency's website(s)."
+ }
+}

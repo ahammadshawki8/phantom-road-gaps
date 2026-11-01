@@ -1,0 +1,21 @@
+{
+ "base": "b",
+ "components": {
+  "b": {
+   "kind": "final",
+   "name": "e131_teacher2"
+  },
+  "a": {
+   "kind": "final",
+   "name": "e134_learner"
+  },
+  "c": {
+   "kind": "final",
+   "name": "e132_robust"
+  }
+ },
+ "combine": {
+  "a": 1.2,
+  "c": -1.2
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "base": "base",
+ "components": {
+  "base": {
+   "kind": "final",
+   "name": "e132_robust"
+  },
+  "learner": {
+   "kind": "learner",
+   "on": "base",
+   "span_upto": "e133_svi.csv",
+   "W": 0.0255,
+   "bags": 1,
+   "state": false
+  }
+ },
+ "combine": {
+  "learner": 1.0
+ }
+}

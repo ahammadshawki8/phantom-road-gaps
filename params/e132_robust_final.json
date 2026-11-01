@@ -1,0 +1,10 @@
+{
+ "base": "geo",
+ "components": {
+  "geo": {
+   "kind": "pieces",
+   "weights": "e132_robust_weights.json"
+  }
+ },
+ "combine": {}
+}
